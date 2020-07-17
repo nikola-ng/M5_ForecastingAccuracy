@@ -2,6 +2,7 @@
 
 This is a Kaggle competition hosted by Walmart, with challenge that can you estimate, as precisely as possible, the point forecasts of the unit sales of various products sold in the USA by Walmart?
 You can check it out by this link below:
+
 https://www.kaggle.com/c/m5-forecasting-accuracy
 
 ## Description of my work
