@@ -18,3 +18,15 @@ In the challenge, you are predicting item sales at stores in various locations f
 - sample_submission.csv - The correct format for submissions. Reference the Evaluation tab for more info.
 - sell_prices.csv - Contains information about the price of the products sold per store and date.
 - sales_train_evaluation.csv - Includes sales [d_1 - d_1941] (labels used for the Public leaderboard)
+
+## Future Work
+
+- Focus more in feature engineering part
+- Hyperparameter tunning
+- Ensembling models Lasso, Ridge and LightGBM (certainly better score)
+- Deploying categorical embedding
+- Deploying LSTM model
+
+## Reference
+
+https://www.kaggle.com/anshuls235/time-series-forecasting-eda-fe-modelling
