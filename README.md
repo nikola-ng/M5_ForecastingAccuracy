@@ -25,7 +25,7 @@ In the challenge, you are predicting item sales at stores in various locations f
 - Focus more in feature engineering part
 - Hyperparameter tunning
 - Ensembling models Lasso, Ridge and LightGBM (certainly better score)
-- Deploying categorical embedding
+- Deploying Entity embedding
 - Deploying LSTM model
 
 ## Reference
