@@ -5,7 +5,7 @@ You can check it out by this link below:
 https://www.kaggle.com/c/m5-forecasting-accuracy
 
 ## Description of my work
-In this repository, I deployed a framework for this competition, with just LightGBM model, it would help you to jump on private leader board ranked 12 (private score 0.54928).
+In this repository, I deployed a framework for this competition such as fetching data, eda, feature engineering, prepare model and prediction. With just LightGBM model, it would help you to jump on private leader board ranked 12 (private score 0.54928).
 
 ## Data of this competition
 You can download data from this site https://www.kaggle.com/c/m5-forecasting-accuracy/data
