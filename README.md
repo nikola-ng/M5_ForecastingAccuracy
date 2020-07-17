@@ -9,7 +9,8 @@ https://www.kaggle.com/c/m5-forecasting-accuracy
 In this repository, I deployed a framework for this competition such as fetching data, eda, feature engineering, preparing model and prediction. With just LightGBM model, it would help you to jump on private leader board ranked 12 (private score 0.54928).
 
 ## Data of this competition
-You can download data from this site https://www.kaggle.com/c/m5-forecasting-accuracy/data
+You can download data from this site https://www.kaggle.com/c/m5-forecasting-accuracy/data.
+
 In the challenge, you are predicting item sales at stores in various locations for two 28-day time periods. Information about the data is found in the M5 Participants Guide.
 
 **Files**
