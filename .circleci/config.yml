@@ -8,6 +8,18 @@ jobs:
     executor: python/default
     steps:
       - checkout
+      - restore_cache:
+          key: venv-{{ checksum "api/requirements.txt" }} # checksum関数に渡すときに示す。
+      - run:
+          name: Create venv
+          working_directory: api # ここは使える
+          command: |
+            virtualenv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
+      - save_cache:
+          key: venv-{{ checksum "api/requirements.txt" }}
+          paths: api/venv # 保存するパスもきちんと示す
       - python/load-cache
       - python/install-deps
       - python/save-cache
